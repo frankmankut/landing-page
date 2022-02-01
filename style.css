@@ -4,7 +4,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #000000;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li, ul{
@@ -24,7 +24,7 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: gold;
+    background-color: #f5dc00;
 }
 
 .header {
@@ -36,6 +36,7 @@ a {
     padding: 10px 250px ;
     font-weight: bold;
     font-size: 20px;
+    flex-wrap: wrap;
     
 }
 
@@ -50,13 +51,37 @@ a {
 .toplog {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
     background-color: #445c1e;
+    
+}
+
+.rectangle, .rectangle1 {
+    height: 214px;
+    width: 400px;
+    margin: 40px;
 }
 
 .rectangle {
-    height: 100px;
-    width: 200px;
+    margin-left: 250px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.rectangle1 {
+    background-color: #f5dc00;
+    margin-right: 250px;
     text-align: center;
+
+}
+
+.p1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.p2 {
+    font-size: 18px;
+    margin: 0px;
 }
