@@ -19,12 +19,16 @@ a {
     text-decoration: none;
     color:#000000;
 }
+.a1 {
+    color:#f5dc00; 
+}
 
 .container {
     display: flex;
     flex-direction: column;
     flex: 1;
     background-color: #f5dc00;
+    text-align: center;
 }
 
 .header {
@@ -53,19 +57,23 @@ a {
     flex-direction: row;
     justify-content: space-between;
     background-color: #445c1e;
-    
+    padding: 40px 0px;
+   
 }
 
 .rectangle, .rectangle1 {
     height: 214px;
     width: 400px;
     margin: 40px;
+    margin-bottom: 80px;
 }
 
 .rectangle {
     margin-left: 250px;
     text-align: left;
-    margin-bottom: 80px;
+    
+    
+    
 }
 
 .rectangle1 {
@@ -84,4 +92,36 @@ a {
 .p2 {
     font-size: 18px;
     margin: 0px;
+    color: #f5dc00 ;
+    padding-bottom: 6px;
+}
+
+button {
+    padding: 6px 18px;
+    border-radius: 8px;
+    background: #000000;
+    border: 1px solid #f5dc00;
+    color: #f5dc00;
+
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 80px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: #f5dc00;
+    border-radius: 15px;
+    border: 5px solid black;
+    margin-bottom: 80px;
+}
+
+h1 {
+    margin-top: 80px;
 }
