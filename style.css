@@ -14,6 +14,7 @@ li, ul{
     padding-left: 0px;
     font-size: 16px;
     word-spacing: 14px;
+    flex-shrink: 0;
 }
 a {
     text-decoration: none;
@@ -120,15 +121,21 @@ button {
     border-radius: 18px;
     border: 6px solid black;
     margin-bottom: 80px;
+    flex-shrink: 0;
 }
 
 .square1 {
+   
     height: 200px;
     width: 200px;
-    background-color: #f5dc00 ;
+    background-color: #827e00;
     border-radius: 18px;
     border: 6px solid black;
     margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    flex-shrink: 0;
 }
 
 h1 {
@@ -137,4 +144,9 @@ h1 {
 
 .img1 {
     border-radius: 10px;
+}
+
+p {
+    margin-top: 10px;
+    
 }
