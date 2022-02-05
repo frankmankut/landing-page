@@ -155,7 +155,7 @@ p {
 
 .quote {
     background-color: black ;
-    padding-top: 185px;
+    padding-top: 165px;
     padding-bottom: 185px;
     display: flex;
     flex-direction: center;
@@ -173,6 +173,38 @@ h6 {
     margin: 20px 0px;
     padding-left: 640px;
 }
+
+.bottomlog {
+    background-color: #f5dc00 ;
+    padding-top: 185px;
+    padding-bottom: 185px;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomlog1 {
+    background-color: black;
+    color: #f5dc00;
+    text-align: left;
+    height:180px;
+    width: 1300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.p4 {
+    font-size:24px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.p5 {
+    margin: 0px;
+}
+
 
 
 
